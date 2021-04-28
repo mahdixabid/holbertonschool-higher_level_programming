@@ -23,3 +23,20 @@ The **if-else** condition adds an additional step in the decision-making process
 [![](https://res.cloudinary.com/dyd911kmh/image/upload/f_auto,q_auto:best/v1594834340/ifelse7_cnbil5.png)](https://res.cloudinary.com/dyd911kmh/image/upload/f_auto,q_auto:best/v1594834340/ifelse7_cnbil5.png)
 #### Example of if-else
 [![](https://res.cloudinary.com/dyd911kmh/image/upload/f_auto,q_auto:best/v1594834339/ifelse6_yybp5a.png)](https://res.cloudinary.com/dyd911kmh/image/upload/f_auto,q_auto:best/v1594834339/ifelse6_yybp5a.png)
+
+## if-elif-else condition
+The most complex of these conditions is the **if-elif-else** condition. When you run into a situation where you have several conditions, you can place as many **elif** conditions as necessary between the **if** condition and the **else** condition.
+[![](https://res.cloudinary.com/dyd911kmh/image/upload/f_auto,q_auto:best/v1594834340/ifelse8_iruubk.png)](https://res.cloudinary.com/dyd911kmh/image/upload/f_auto,q_auto:best/v1594834340/ifelse8_iruubk.png)
+### Example of if-elif-else condition
+Below is an example of where you want different printouts for numbers that are divisible by 2 and 3.
+
+Here, since **z** equals 3, the first condition is False, so it goes over to the next condition. The next condition does hold True. Hence, the corresponding print statement is executed.
+
+[![](https://res.cloudinary.com/dyd911kmh/image/upload/f_auto,q_auto:best/v1594834340/ifelse9_nk5ugf.png)](https://res.cloudinary.com/dyd911kmh/image/upload/f_auto,q_auto:best/v1594834340/ifelse9_nk5ugf.png)
+#### Example of if-elif-else condition
+In the below example, you define two variables **room** and **area**. You then construct **if-elif-else** and **if-else** conditions each for **room** and **area**, respectively.
+
+In the first condition, you check **if** you are looking in the kitchen, **elif** you are looking in the bedroom, **else** you are looking around elsewhere. Depending on the value of the **room** variable, the satisfied condition is executed.
+
+Similarly, for the **area** variable, you write an **if** and **else** condition and check whether the **area** is greater than 15 or not.
+[![](https://res.cloudinary.com/dyd911kmh/image/upload/f_auto,q_auto:best/v1594834340/ifelse1_vienhl.png)](https://res.cloudinary.com/dyd911kmh/image/upload/f_auto,q_auto:best/v1594834340/ifelse1_vienhl.png)
