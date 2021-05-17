@@ -1,5 +1,4 @@
 # Python Try Except
-<br>
 #### The try block lets you test a block of code for errors.
 <br>
 #### The except block lets you handle the error.
