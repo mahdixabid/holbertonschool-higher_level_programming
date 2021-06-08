@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-'''Module for Rectangle unit tests.'''
+'''Module for Rectangle unit tests'''
 import unittest
 from models.base import Base
 from models.rectangle import Rectangle
@@ -9,10 +9,10 @@ import io
 
 
 class TestRectangle(unittest.TestCase):
-    '''Tests the Base class.'''
+    '''Tests the Base class'''
 
     def setUp(self):
-        '''Imports module, instantiates class'''
+        '''Imports module instantiates class'''
         Base._Base__nb_objects = 0
 
     def tearDown(self):
