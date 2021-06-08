@@ -45,7 +45,7 @@ class Base:
     @classmethod
     def load_from_file(cls):
         '''retrieve string from file and from jsonification'''
-        from os import path
+        import path
         file = "{}.json".format(cls.__name__)
         if not path.isfile(file):
             return []
