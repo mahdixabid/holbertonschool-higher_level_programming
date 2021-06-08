@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-'''Base class module - tests located in test/test_base.py'''
+'''Base class module tests located in test/test_base.py'''
 from json import dumps
 from json import loads
 import csv
