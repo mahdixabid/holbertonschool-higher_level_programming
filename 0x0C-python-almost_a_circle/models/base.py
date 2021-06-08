@@ -72,7 +72,7 @@ class Base:
         from models.rectangle import Rectangle
         from models.square import Square
         if list_objs is not None:
-            if cls is Rectangle:
+            if cls is Square:
                 list_objs = [[obj.id, obj.width, obj.height, obj.x, obj.y]
                              for obj in list_objs]
             else:
