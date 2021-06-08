@@ -16,7 +16,7 @@ class TestRectangle(unittest.TestCase):
         Base._Base__nb_objects = 0
 
     def tearDown(self):
-        '''Cleans up after each test_method.'''
+        '''Cleans up after each test_method'''
         pass
 
     def test_1_class(self):
