@@ -11,3 +11,4 @@ This project in the High Level Programming series is about:
 * What is a closure
 * What is a prototype
 * How to inherit an object from another
+<hr>
