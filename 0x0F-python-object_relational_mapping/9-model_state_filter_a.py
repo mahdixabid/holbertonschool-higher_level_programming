@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# lists all State objects that contain the letter a from a database
+# lists all State objects that contain the letter a from a data-base
 
 
 if __name__ == "__main__":
