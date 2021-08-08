@@ -10,7 +10,7 @@ File|Task
 3-my_safe_filter_states.py | script that takes in arguments and displays all values
 4-cities_by_state.py | script that lists all cities from the database
 5-filter_cities.py | script that takes in the name of a state as an argument and lists all cities of that state
-6-model_state.py | python file that contains the class definition of a State and an instance Base = declarative_base()
+-model_state.py | python file that contains the class definition of a State and an instance Base = declarative_base()
 7-model_state_fetch_all.py | script that lists all State objects from the database 
 8-model_state_fetch_first.py | script that prints the first State object from the database 
 9-model_state_filter_a.py | script that lists all State objects that contain the letter a from the database
