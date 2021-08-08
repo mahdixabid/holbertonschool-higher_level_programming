@@ -16,7 +16,7 @@ if __name__ == "__main__":
     # cursor
     c = db.cursor()
 
-    # execute query
+    # execute query 
     c.execute("SELECT * FROM states WHERE\
     name LIKE BINARY 'N%' ORDER BY states.id")
 
