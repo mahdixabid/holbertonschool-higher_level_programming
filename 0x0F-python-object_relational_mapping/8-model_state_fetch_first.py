@@ -22,4 +22,3 @@ if __name__ == '__main__':
     else:
         print("{}: {}".format(query_row.id, query_row.name))
     session.close()
-    
