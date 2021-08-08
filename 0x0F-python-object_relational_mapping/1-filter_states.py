@@ -25,6 +25,6 @@ if __name__ == "__main__":
     for row in rows:
         print(row)
 
-    #close cursor and database
+    # close cursor and database
     c.close()
     db.close()
