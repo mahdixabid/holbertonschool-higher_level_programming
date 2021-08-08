@@ -1,27 +1,21 @@
 #!/usr/bin/python3
-"""
-Script that deletes a State object from a database
-"""
+""" delete all states that contains the
+letter 'a' from the database hbtn_0e_6_usa"""
 
-from sys import argv
-from model_state import Base, State
-from sqlalchemy.orm import Session
+
 from sqlalchemy import create_engine
+from sqlalchemy.orm.session import Session
+from model_state import Base, State
+import sys
 
-if __name__ == "__main__":
-
-    user = argv[1]
-    password = argv[2]
-    database = argv[3]
-
-    engine = create_engine('mysql+mysqldb://{}:{}@localhost/{}'.format
-                           (user, password, database), pool_pre_ping=True)
+if __name__ == '__main__':
+    engine = create_engine('mysql+mysqldb://{}:{}@localhost/{}'
+                           .format(sys.argv[1], sys.argv[2],
+                                   sys.argv[3]), pool_pre_ping=True)
     Base.metadata.create_all(engine)
 
     session = Session(engine)
-    deletes = session.query(State).order_by(State.id).all()
-    for row in deletes:
-        if 'a' in row.name:
-            session.delete(row)
+    query_row = session.query(State).filter(State.name.like('%a%')).\
+        delete(synchronize_session="fetch")
     session.commit()
     session.close()
