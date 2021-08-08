@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# adds an State object to database
+# adds an State object to DB
 
 
 if __name__ == "__main__":
